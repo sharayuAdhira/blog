@@ -45,7 +45,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div> -->
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button> 
     </form>
 
     <table class="table">
@@ -64,8 +64,8 @@
       <td>{{$user->name}}</td>
       <td>{{$user->email}}</td>
       <td> 
-      <a class="btn btn-primary" href="/edit/{{$user->id}}">Edit</a>
-      <a class="btn btn-danger" href="/delete/{{$user->id}}">Delete</a>
+        <a class="btn btn-primary" href="/edit/{{$user->id}}">Edit</a>
+        <a class="btn btn-danger" href="/delete/{{$user->id}}">Delete</a>
       </td>
     </tr>
     @endforeach
