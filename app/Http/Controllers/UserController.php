@@ -102,6 +102,6 @@ class UserController extends Controller
     {
         User::find($id)->delete();
 
-        return back();
+        return back(); 
     }
 }
